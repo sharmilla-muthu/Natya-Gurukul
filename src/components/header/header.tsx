@@ -1,5 +1,5 @@
 import logoWithName from "../../assets/logo-with-name.png";
-import "./Header.css";
+import "./header.css";
 
 export const Header = () => {
   return (
