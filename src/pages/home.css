@@ -1,0 +1,94 @@
+/* Global alignment for all tab pages */
+.page-content-wrapper {
+  padding-top: 1.8rem;
+  padding-bottom: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Sections */
+.section-block {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+/* Clean heading style (no temple arch) */
+.section-heading {
+  font-family: "Georgia", serif;
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #8b0000;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.7rem;
+}
+
+/* Gold underline */
+.section-heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, #ffd700, #ffbd2e, #ffd700);
+  border-radius: 2px;
+}
+
+/* Paragraph text */
+.section-text {
+  font-family: "Georgia", serif;
+  font-size: 1.18rem;
+  line-height: 1.75;
+  color: #3b1f1f;
+  margin: 1.2rem auto;
+  max-width: 800px;
+}
+
+/* Signature */
+.welcome-signature {
+  margin-top: 2.5rem;
+  font-family: "Georgia", serif;
+  font-size: 1.1rem;
+  color: #3b1f1f;
+  line-height: 1.6;
+}
+
+.welcome-signature p {
+  margin: 0.3rem 0;
+}
+
+/* Soft divider */
+.soft-divider {
+  width: 140px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #b22222,
+    #8b0000,
+    #b22222,
+    transparent
+  );
+  margin: 3rem auto;
+  opacity: 0.35;
+  border-radius: 2px;
+}
+
+
+.p-tabview-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100%;
+}
+
+.p-tabview-nav li {
+  flex: 1 !important;               /* Each tab occupies equal width */
+  text-align: center !important;    /* Center the tab label */
+}
+
+.p-tabview-nav li .p-tabview-nav-link {
+  width: 100%;
+  justify-content: center;
+}

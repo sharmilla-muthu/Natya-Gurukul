@@ -1,0 +1,95 @@
+.about-section {
+  max-width: 850px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+.p-tabview-panels {
+    height: 28rem;
+    overflow: auto;
+    padding: 0.5rem 1rem !important
+}
+
+/* Main ABOUT title */
+.about-heading {
+  font-family: "Georgia", serif;
+  font-size: 2.4rem;
+  color: #8b0000;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2.2rem;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+/* Gold underline for ABOUT */
+.about-heading::after {
+  content: "";
+  display: block;
+  margin: 0.7rem auto 0;
+  width: 110px;
+  height: 5px;
+  background: linear-gradient(90deg, #ffd700, #ffb300, #ffd700);
+  border-radius: 2px;
+}
+
+/* Section titles (Vision, Mission) */
+.sub-heading {
+  font-family: "Georgia", serif;
+  font-size: 1.7rem;
+  color: #8b0000;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Gold underline for subheadings */
+.sub-heading::after {
+  content: "";
+  display: block;
+  margin: 0.5rem auto 0;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #ffd700, #ffb300, #ffd700);
+  border-radius: 2px;
+}
+
+/* Text paragraph */
+.vm-text {
+  font-family: "Georgia", serif;
+  font-size: 1.2rem;
+  line-height: 1.75;
+  color: #3b1f1f;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 2rem;
+}
+
+/* Mission list */
+.vm-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 3rem;
+  max-width: 760px;
+}
+
+.vm-list li {
+  font-family: "Georgia", serif;
+  font-size: 1.15rem;
+  color: #402020;
+  line-height: 1.7;
+  padding: 0.7rem 0;
+  position: relative;
+  padding-left: 1.4rem;
+}
+
+/* Red classical bullet */
+.vm-list li::before {
+  content: "•";
+  color: #b22222;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+}

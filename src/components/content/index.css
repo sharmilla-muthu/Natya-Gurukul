@@ -1,0 +1,11 @@
+.tabViewHeader {
+    padding-top: 7rem;
+    a {
+        color: #ab1c1c;
+    }
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: #ffffff;
+    border-color: #ab1c1c;
+}
